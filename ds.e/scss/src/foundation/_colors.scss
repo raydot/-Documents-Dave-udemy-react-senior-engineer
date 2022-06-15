@@ -1,0 +1,86 @@
+/**
+
+*       Actual colors that will be used for styling.  They will default
+
+*       to the palette defined in  _variable.scss.  Devs can override with
+
+*       their own variables.
+
+*/
+
+
+/* ==================================
+
+        Global Text colors
+
+===================================== */
+
+/*  Defining with variables so there's no collision from any other library.
+    And also because it makes it easy to override.
+    DSE = "Design System for Engineering" */
+
+$body-text-color: var(--dse-body-text-color, $dark) !default;
+
+$body-bg-color: var(--dse-body-bg-color, $white) !default;
+
+
+/* ==================================
+
+        Buttons
+
+===================================== */
+
+$btn-primary-color: var(--dse-btn-primary-color, $white) !default;
+
+$btn-primary-bg: var(--dse-btn-primary-bg, $green) !default;
+
+$btn-primary-bg-hover: var(--dse-btn-primary-bg-hover, $green-light) !default;
+
+/* ==================================
+
+        Continue to define colors for forms, inputs, everything else
+        Focus is primarily atoms, but sometimes can be molecules or 
+        organisms, etc...depends on what you're trying to accomplish.
+
+=====================================*/
+
+$form-color: var(--dse-form-color, $dark) !default;
+
+$form-bg: var(--dse-form-bg, $white) !default;
+
+$form-error-color: var(--dse-form-error-color, $red) !default;
+
+$form-error-border: var(--dse-form-error-border, $red) !default;
+
+$form-border-focus-color: var(--dse-form-border-focus-color, $green) !default;
+
+/* ==================================
+
+        APP BAR
+
+===================================== */
+
+$appbar-primary-background: var(--dse-appbar-primary-background-color, $purple) !default;
+
+$appbar-primary-text: var(--dse-appbar-primary-text-color, $white) !default;
+
+$appbar-light-background: var(--dse-appbar-light-background-color, $white) !default;
+
+$appbar-light-text: var(--dse-appbar-light-text-color, $black) !default;
+
+$appbar-light-elevation: var(--dse-appbar-light-elevation, $black) !default
+
+
+/* ==================================
+
+        FLOATING ACTION BUTTON
+
+===================================== */
+
+$fab-primary-background: var(--dse-fab-primary-background-color, $purple) !default;
+
+$fab-primary-icon: var(--dse-fab-primary-icon-color, $white) !default;
+
+$fab-secondary-background: var(--dse-fab-secondary-background-color, $green-secondary) !default;
+
+$fab-secondary-icon: var(--dse-appbar-secondary-icon-color, $white) !default;
