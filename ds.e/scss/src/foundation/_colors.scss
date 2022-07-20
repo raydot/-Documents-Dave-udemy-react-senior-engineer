@@ -8,7 +8,6 @@
 
 */
 
-
 /* ==================================
 
         Global Text colors
@@ -22,7 +21,6 @@
 $body-text-color: var(--dse-body-text-color, $dark) !default;
 
 $body-bg-color: var(--dse-body-bg-color, $white) !default;
-
 
 /* ==================================
 
@@ -60,16 +58,21 @@ $form-border-focus-color: var(--dse-form-border-focus-color, $green) !default;
 
 ===================================== */
 
-$appbar-primary-background: var(--dse-appbar-primary-background-color, $purple) !default;
+$appbar-primary-background: var(
+  --dse-appbar-primary-background-color,
+  $purple
+) !default;
 
 $appbar-primary-text: var(--dse-appbar-primary-text-color, $white) !default;
 
-$appbar-light-background: var(--dse-appbar-light-background-color, $white) !default;
+$appbar-light-background: var(
+  --dse-appbar-light-background-color,
+  $white
+) !default;
 
 $appbar-light-text: var(--dse-appbar-light-text-color, $black) !default;
 
-$appbar-light-elevation: var(--dse-appbar-light-elevation, $black) !default
-
+$appbar-light-elevation: var(--dse-appbar-light-elevation, $black) !default;
 
 /* ==================================
 
@@ -77,10 +80,16 @@ $appbar-light-elevation: var(--dse-appbar-light-elevation, $black) !default
 
 ===================================== */
 
-$fab-primary-background: var(--dse-fab-primary-background-color, $purple) !default;
+$fab-primary-background: var(
+  --dse-fab-primary-background-color,
+  $purple
+) !default;
 
 $fab-primary-icon: var(--dse-fab-primary-icon-color, $white) !default;
 
-$fab-secondary-background: var(--dse-fab-secondary-background-color, $green-secondary) !default;
+$fab-secondary-background: var(
+  --dse-fab-secondary-background-color,
+  $green-secondary
+) !default;
 
 $fab-secondary-icon: var(--dse-appbar-secondary-icon-color, $white) !default;
