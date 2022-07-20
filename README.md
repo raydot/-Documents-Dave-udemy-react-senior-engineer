@@ -3,6 +3,6 @@ Following Udemy's Course "Advanced React For Enterprise: React for senior engine
 
 ## Instructions
 
-Weirdly this app runs from path `/ds.e`.  
+Weirdly this app runs from path `/ds.e/sass/`.  
 
 

@@ -13,7 +13,7 @@
     "stylelint-prettier": "^2.0.0"
   },
   "scripts": {
-    "prepare": "cd ../ && husky install sass/.husky",
+    "prepare": "cd ../../ && husky install ds.e/sass/.husky",
     "lint": "stylelint './**/*.scss'",
     "lint:fix": "yarn lint --fix"
   },
