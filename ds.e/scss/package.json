@@ -13,13 +13,9 @@
     "stylelint-prettier": "^2.0.0"
   },
   "scripts": {
+    "prepare": "cd ../ && husky install sass/.husky",
     "lint": "stylelint './**/*.scss'",
     "lint:fix": "yarn lint --fix"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "lint-staged": {
     "*.scss": "yarn lint:fix"
