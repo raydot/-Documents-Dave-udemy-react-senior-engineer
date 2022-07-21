@@ -13,16 +13,13 @@
     "stylelint-prettier": "^2.0.0"
   },
   "scripts": {
-    "prepare": "cd ../../ && husky install ds.e/sass/.husky",
+    "prepare": "cd ../../ && husky install ds.e/scss/.husky",
     "lint": "stylelint './**/*.scss'",
     "lint:fix": "yarn lint --fix"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "echo \"[Husky] pre-commit\""
-    }
-  },
   "lint-staged": {
-    "*.scss": "yarn lint:fix"
+    "*.scss": "yarn lint:fix",
+    "*.css": "stylelint --fix",
+    "*.{js,css,md}": "prettier --write"
   }
 }
