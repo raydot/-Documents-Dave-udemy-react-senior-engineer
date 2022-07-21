@@ -1,0 +1,161 @@
+/* ==================================
+
+          VARIABLES
+
+===================================== */
+/**
+* TABLE OF CONTENTS
+*
+* This should reflect the style guide
+*
+* COLORS
+* Brand Colors..................... These are the main and most used brand colors
+* Neutral Colors................... These colors don't take sides!
+* Utility Colors................... In the hole or on the go, these colors get things done!
+*
+* TYPOGRAPHY
+* Font Families.................... Fonts used in the design system
+* Font Weights..................... Font weights (duh!)
+* Sizes............................ Font sizing for body text, paragraphs, inputs
+* Heading Sizes.................... Font sizes for page headings
+*
+* BREAKPOINTS
+* Breakpoints...................... Global responsive breakpoint definitions
+*
+* SPACING
+* Spacing.......................... Global fixed set of spacing variables
+**/
+/* ==================================
+
+            COLORS
+
+===================================== */
+/* Brand Colors */
+/* Neutral Colors */
+/* Utility Colors */
+/* ==================================
+
+                TYPOGRAPHY
+
+===================================== */
+/**
+
+ *
+
+ * 1) Playfair font is used for headings, mostly
+
+ *      https://fonts.google.com/specimen/Playfair + Display
+
+ * 
+
+ *  2) Raleway font is used for body text
+
+ *      https://fonts/google.com/specimen/Raleway
+
+ *
+
+*/
+/* 1 */
+/* 2 */
+/* Font sizes */
+/* Heading font sizes */
+/* Font weights */
+/* ==================================
+
+            BREAKPOINTS
+
+===================================== */
+/* ==================================
+
+            SPACING
+
+===================================== */
+/**
+
+*       Actual colors that will be used for styling.  They will default
+
+*       to the palette defined in  _variable.scss.  Devs can override with
+
+*       their own variables.
+
+*/
+/* ==================================
+
+        Global Text colors
+
+===================================== */
+/*  Defining with variables so there's no collision from any other library.
+    And also because it makes it easy to override.
+    DSE = "Design System for Engineering" */
+/* ==================================
+
+        Buttons
+
+===================================== */
+/* ==================================
+
+        Continue to define colors for forms, inputs, everything else
+        Focus is primarily atoms, but sometimes can be molecules or 
+        organisms, etc...depends on what you're trying to accomplish.
+
+=====================================*/
+/* ==================================
+
+        APP BAR
+
+===================================== */
+/* ==================================
+
+        FLOATING ACTION BUTTON
+
+===================================== */
+/* ==================================
+
+            Foundation - TYPOGRAPHY
+
+===================================== */
+/**
+
+*   This file defines the default font sizes to be used on headings
+
+*   from the palette defined in _variables.scs
+
+*
+
+*/
+/* ==================================
+
+            Body text sizes
+
+===================================== */
+/* ==================================
+
+            Heading text sizes
+
+===================================== */
+/* Have to call everything $h-1 because otherwise you get a collision with Normalize
+   that the editor of the class did not anticpate and really didn't fix either! */
+/* ==================================
+
+            Heading font weight
+
+===================================== */
+/* ==================================
+
+            Mixins
+
+===================================== */
+/**
+
+*   
+
+* Helpful reusable function-like things that will be used to
+
+* implement styles for components.
+
+*
+
+*/
+.dse-button__container {
+  display: flex;
+}
